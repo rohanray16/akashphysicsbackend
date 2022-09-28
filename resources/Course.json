@@ -1,0 +1,93 @@
+[
+    {
+        "course_id": 1,
+        "title": "CLASS X COURSE",
+        "heading": "Online training program for class 10th students going to appear for Boards",
+        "para": [
+            "The classes will be cover the basics of physics as well as targeted to give a foundation for Mains / NEET/ Advanced in future",
+            "There will be separate batches for CBSE and ICSE",
+            "It is guaranteed that every chapter & concept will be taught thoroughly, with plenty of examples and previous year questions from the side of the faculty",
+            "Personal doubt clarifications/guidance to resolve, whichever would be relevant as per the question",
+            "As much care and attention the student needs to learn, shall be given from the side of the faculty to that individual student. That commitment holds from the side of the faculty",
+            "Classes will be for official 2 hours in a week and certainly due to assignments/discussions/doubts, it may go much beyond that, as per the needs or demands of an individual to learn",
+            "Once registrations are confirmed and the required number of students are admitted through an interview, further admissions won't be taken. So kindly register timely"
+        ],
+        "fees": 1020
+    },
+    {
+        "course_id": 2,
+        "title": "CLASS XI COURSE",
+        "heading": "Online training program for class 11th students going to appear for Mains / NEET / Advanced",
+        "para": [
+            "It is to cover full 11th syllabus and in a way that 12th foundation is set by the time they pass out of 11th",
+            "There will be separate batches based on the number of students",
+            "It is guaranteed that every chapter & concept will be taught thoroughly, with plenty of examples and previous year questions from the side of the faculty",
+            "Personal doubt clarifications/guidance to resolve, whichever would be relevant as per the question",
+            "As much care and attention the student needs to learn, shall be given from the side of the faculty to that individual student. That commitment holds from the side of the faculty",
+            "Classes will be for official 4 hours in a week and certainly due to assignments/discussions/doubts, it may go much beyond that, as per the needs or demands of an individual to learn",
+            "Once registrations are confirmed and the required number of students are admitted through an interview, further admissions won't be taken. So kindly register timely"
+        ],
+        "fees": 1220
+    },
+    {
+        "course_id": 3,
+        "title": "CLASS XII COURSE",
+        "heading": "Online training program for class 11th students going to appear for Mains / NEET / Advanced",
+        "para": [
+            "It is to cover full 12th syllabus and revise 11th syllabus topics",
+            "Maximum admitted students will be 15-20",
+            "It is guaranteed that every chapter & concept will be taught thoroughly, with plenty of examples and previous year questions from the side of the faculty",
+            "Personal doubt clarifications/guidance to resolve, whichever would be relevant as per the question",
+            "As much care and attention the student needs to learn, shall be given from the side of the faculty to that individual student. That commitment holds from the side of the faculty",
+            "Classes will be for official 4 hours in a week and certainly due to assignments/discussions/doubts, it may go much beyond that, as per the needs or demands of an individual to learn",
+            "Once registrations are confirmed and the required number of students are admitted through an interview, further admissions won't be taken. So kindly register timely"
+        ],
+        "fees": 1420
+    },
+    {
+        "course_id": 4,
+        "title": "REPEATER'S COURSE",
+        "heading": "Online training program for repeat students going to appear for Mains / NEET / Advanced",
+        "para": [
+            "It is to cover 11th and 12th syllabus for repeater",
+            "Maximum admitted students will be 15-20",
+            "It is guaranteed that every chapter & concept will be taught thoroughly, with plenty of examples and previous year questions from the side of the faculty",
+            "Personal doubt clarifications/guidance to resolve, whichever would be relevant as per the question",
+            "As much care and attention the student needs to learn, shall be given from the side of the faculty to that individual student. That commitment holds from the side of the faculty",
+            "Classes will be for official 4 hours in a week and certainly due to assignments/discussions/doubts, it may go much beyond that, as per the needs or demands of an individual to learn",
+            "Once registrations are confirmed and the required number of students are admitted through an interview, further admissions won't be taken. So kindly register timely"
+        ],
+        "fees": 1420
+    },
+    {
+        "course_id": 5,
+        "title": "CRASH COURSE",
+        "heading": "Online training program for students going to appear for Mains / NEET / Advanced",
+        "para": [
+            "It is to cover 11th and 12th syllabus in a fast pace within 4 months",
+            "Maximum admitted students will be 15-20",
+            "It is guaranteed that every chapter & concept will be taught thoroughly, with plenty of examples and previous year questions from the side of the faculty",
+            "Personal doubt clarifications/guidance to resolve, whichever would be relevant as per the question",
+            "As much care and attention the student needs to learn, shall be given from the side of the faculty to that individual student. That commitment holds from the side of the faculty",
+            "Classes will be for official 4 hours in a week and certainly due to assignments/discussions/doubts, it may go much beyond that, as per the needs or demands of an individual to learn",
+            "Once registrations are confirmed and the required number of students are admitted through an interview, further admissions won't be taken. So kindly register timely"
+        ],
+        "fees": 1420
+    },
+    {
+        "course_id": 6,
+        "title": "FAST FORWARD COURSE",
+        "heading": "Online training program for students going to appear for Mains / NEET / Advanced",
+        "para": [
+            "It is to cover 11th and 12th syllabus within 12 months",
+            "Maximum admitted students will be 15-20",
+            "It is guaranteed that every chapter & concept will be taught thoroughly, with plenty of examples and previous year questions from the side of the faculty",
+            "Personal doubt clarifications/guidance to resolve, whichever would be relevant as per the question",
+            "As much care and attention the student needs to learn, shall be given from the side of the faculty to that individual student. That commitment holds from the side of the faculty",
+            "Classes will be for official 4 hours in a week and certainly due to assignments/discussions/doubts, it may go much beyond that, as per the needs or demands of an individual to learn",
+            "Once registrations are confirmed and the required number of students are admitted through an interview, further admissions won't be taken. So kindly register timely"
+        ],
+        "fees": 1420
+    }
+
+]
