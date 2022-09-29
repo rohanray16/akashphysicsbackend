@@ -9,7 +9,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use(express.urlencoded({ extended: false })); // get post data
+app.use(express.urlencoded({ extended: false })); // get post dat
 
 app.use("/api", apiRouter);
 
