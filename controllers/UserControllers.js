@@ -1,3 +1,4 @@
+const { response } = require("express");
 const UserModel = require("../models/userModel");
 
 let UserControllers = {
@@ -33,6 +34,12 @@ let UserControllers = {
                 error
             });
         }
+    },
+    getHome: async (req,res) => {
+        response.status(200).send({
+            status:true,
+            msg: "Home api working"
+        });
     }
 }
 

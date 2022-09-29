@@ -4,6 +4,7 @@ const paymentController = require("../controllers/paymentController");
 const UserControllers = require("../controllers/UserControllers");
 const router = express.Router();
 
+router.get("/",UserControllers.getHome)
 router.get("/get-course/:id",CourseController.getCourse)
 
 router.post("/add-course",CourseController.addCourse);
