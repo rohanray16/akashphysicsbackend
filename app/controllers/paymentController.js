@@ -1,4 +1,3 @@
-const https = require('https');
 const Razorpay = require('razorpay');
 const crypto = require("crypto");
 const UserModel = require('../models/userModel');
@@ -60,12 +59,13 @@ const paymentController = {
         console.log("sig received ", req.body.razorpay_signature);
         console.log("sig generated ", expectedSignature);
         var response = { signatureIsValid: false }
-        if (expectedSignature === req.body.razorpay_signature)
+        if (expectedSignature === req.body.razorpay_signature){
             response = { signatureIsValid: true }
+        }
         res.send(response);
     },
     verify: async (req, res) => {
-        let { email, verifyStatus, razorpay_order_id, razorpay_payment_id, razorpay_signature } = req.body;
+        let { email, course_id, verifyStatus, razorpay_order_id, razorpay_payment_id, razorpay_signature } = req.body;
         console.log("verifyStatus");
         console.log(verifyStatus);
         if (!verifyStatus) {
@@ -81,6 +81,7 @@ const paymentController = {
             })
             let newPayment = new PaymentModel({
                 email: email,
+                course_id: course_id,
                 verified: true,
                 payment_id: razorpay_payment_id,
                 order_id: razorpay_order_id,
@@ -99,13 +100,17 @@ const paymentController = {
         }
     },
     paids: async (request, response) => {
-        let { email } = request.body;
+        let { email,course_id } = request.body;
         try {
             let paidd = await UserModel.findOne({ email: email }, {
                 paid: 1
             })
+            let verify = await PaymentModel.findOne({email: email, course_id: course_id},{
+                verified: 1                
+            })
                 response.status(200).send({
-                    result: paidd.paid
+                    result: paidd.paid,
+                    verify: verify.verified
                 })
         } catch (error) {
             response.status(500).send({

@@ -5,6 +5,7 @@ const PaymentSchema = new Schema({
   
   email: { type: String },
   verified: {type: Boolean},
+  course_id: {type: Number},
   payment_id: { type: String },
   order_id: {type: String},
   payment_signature: {type: String}
