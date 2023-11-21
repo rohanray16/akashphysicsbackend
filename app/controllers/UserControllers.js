@@ -36,7 +36,7 @@ let UserControllers = {
         }
     },
     getHome: async (req,res) => {
-        response.status(200).send({
+        res.status(200).send({
             status:true,
             msg: "Home api working"
         });
